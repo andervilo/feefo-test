@@ -1,0 +1,14 @@
+.TitleMain {
+    display: flex;
+    flex-direction: column;    
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.Title {
+    font-size: 25pt;
+    color: #555555 
+}
+
+

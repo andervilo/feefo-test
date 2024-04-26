@@ -1,0 +1,81 @@
+.Sales {
+  display: flex;
+  flex-direction: column;
+  
+  padding: 15px;
+  border-bottom: 0.5px solid #e4e7e9;
+}
+
+.Icons {
+    display: flex;
+}
+
+.Right {
+    display: flex;
+    flex: 50%;
+    justify-content: flex-start;
+}
+
+.Left {
+    display: flex;
+    flex: 50%;
+    justify-content: flex-end;
+}
+
+.UpLoadIcon {
+    color: #00bfff ;
+    padding-right: 10px;
+}
+
+.InfoIcon {
+    color: #91a3b0 ;
+}
+
+.SalesText {
+    color: #555555;
+    font-weight: 600;
+    font-size: 10pt;
+}
+
+.InfoText {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #91a3b0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Dashboard {
+    display: flex;
+    
+}
+
+.DashboardRight {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    border-right: 1px solid #e4e7e9;
+    width: 45%;
+    padding: 15px;
+}
+
+.DashboardLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 45%;
+    padding: 15px;
+}
+
+.Number {
+    color: #22ab55;
+    font-size: 30pt;
+    font-weight: 600;
+}
+
+.DashboardText {
+    color: #7f8c8d;
+    font-weight: 600;
+}

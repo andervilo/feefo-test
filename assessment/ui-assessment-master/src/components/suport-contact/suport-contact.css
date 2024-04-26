@@ -1,0 +1,63 @@
+.SupportContactMain {
+  display: flex;
+  flex-direction: column;  
+  margin-left: 40px;
+}
+
+@media (max-width: 700px) {
+    .SupportContactMain {
+        margin-left: 0
+    }
+  }
+
+.SupportContact {
+    display: flex;
+}
+
+.SupportLogo {
+    font-weight: 600;
+    font-size: larger;
+    background-color: #f1c40f;
+    padding: 20px;
+    border-radius: 5px;
+    height: 25px;
+    width: 25px;
+}
+
+.SupportContactData {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: space-evenly;
+}
+
+.SupportTitle {
+    font-weight: 600;
+    font-size: larger;
+    color: #7f8c8d;
+    margin-bottom: 15px;
+}
+
+.Name {    
+    
+    font-weight: 600;
+    color: #555555  ;
+}
+
+.Email {
+    display: flex;
+    flex-direction: line;
+    font-weight: 200;
+    color: #555555   ;
+}
+
+.Icon {
+    margin-right: 10px;
+}
+
+.TextEmail {
+    font-weight: 600;
+    color: #91a3b0   ;
+    font-size: 10pt;
+}
